@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.conda/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+inferx.log
+
+# ML Models & Cache
+*.bin
+*.safetensors
+*.pt
+*.pth
+~/.cache/huggingface/
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution
+*.tar.gz
+*.zip
+# Database
+*.db
+*.sqlite
+
+# Modern Virtual Environments
+.venv/
+
+# Linting & Type Checking Caches
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
