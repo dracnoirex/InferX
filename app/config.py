@@ -26,7 +26,8 @@ class Settings(BaseSettings):
 
     model_config = {
         "env_file": ".env",
-        "protected_namespaces": ()
+        "protected_namespaces": (),
+        "extra": "ignore"
     }
 
 settings = Settings()
